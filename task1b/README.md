@@ -83,7 +83,8 @@ MSITKDQIIEAVAAMSVMDVVELISAMEEKFGVSAAAAVAVAAGPVEAAEEKTEFDVILKAAGANKVAVIKAVRGATGLG
 Note: here is a quick way to download the above query protein sequence from Uniprot and rename it in one command
 
 ```
-curl https://www.uniprot.org/uniprot/B7LA79.fasta > e.coli.l7.faa
+wget https://www.uniprot.org/uniprot/B7LA79.fasta 
+cat B7LA79.fasta > e.coli.l7.faa
 ```
 
 
